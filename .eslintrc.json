@@ -4,5 +4,13 @@
 		"plugin:react/recommended",
 		"eslint-config-prettier",
 		"next/core-web-vitals"
-	]
+	],
+	"env": {
+		"browser": true,
+		"es6": true,
+		"jest": true
+	},
+	"rules": {
+		"no-console": 1
+	}
 }

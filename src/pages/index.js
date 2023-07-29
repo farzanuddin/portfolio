@@ -12,6 +12,15 @@ import schoolIcon from "../../public/icons/school-icon.svg";
 
 const Sans = SansPro({ subsets: ["latin"] });
 
+// eslint-disable-next-line no-console
+console.info(
+	"%cHello There! 🙋🏽‍♂️ %cCaught you peaking in the console, didn't I? 👀 %n Reach out, lets work together! %cLinkedIn:%chttps://www.linkedin.com/in/farzanuddin/",
+	"color: #FEB712; font-size: 14px; font-family: monospace; margin-bottom: 5px;",
+	"color: #FFFFFF; font-size: 12px; font-family: monospace",
+	"color: #141414; background:#FEB712; font-size: 12px; font-family: monospace; margin-right: 10px; padding: 5px; margin-top: 5px; margin-bottom: 5px; border-radius: 5px;",
+	"color: #FFFFFF; font-size: 12px; font-family: monospace"
+);
+
 export default function Home() {
 	return (
 		<>
@@ -51,13 +60,9 @@ export default function Home() {
 								</div>
 
 								<p className={styles.headerDescription}>
-									{`
-                  I am a detail-oriented Front-End Software Engineer dedicated
-                  to crafting accessible and high-performing user experiences
-                  for the web. My insatiable curiosity and commitment to
-                  continuous learning drive me to constantly enhance the web's
-                  overall quality for all users.
-                  `}
+									I am a detail-oriented Front-End Software Engineer dedicated to crafting accessible and
+									high-performing user experiences for the web. My insatiable curiosity and commitment to
+									continuous learning drive me to constantly enhance the web overall quality for all users.
 								</p>
 							</div>
 						</div>
