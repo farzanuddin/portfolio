@@ -1,27 +1,28 @@
 {
-	"name": "portfolio",
-	"version": "1.0.0",
-	"private": true,
-	"keywords": [
-		"nextjs",
-		"react"
-	],
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"eslint": "8.45.0",
-		"eslint-config-next": "13.4.12",
-		"next": "13.4.12",
-		"react": "18.2.0",
-		"react-dom": "18.2.0"
-	},
-	"devDependencies": {
-		"eslint-config-prettier": "8.9.0",
-		"eslint-plugin-react": "7.33.0",
-		"prettier": "3.0.0"
-	}
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "nextjs",
+    "react"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "8.9.0",
+    "eslint-plugin-react": "7.33.0",
+    "prettier": "3.0.0"
+  }
 }

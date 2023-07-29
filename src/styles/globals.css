@@ -1,82 +1,77 @@
 :root {
-	--primary: #feb712;
-	--secondary: #232323;
-	--background: #141414;
-	--light-text: #ffffff;
-	--transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-	--transition-fast: 0.25s linear;
-	--transition-slow: all 0.75s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --primary: #feb712;
+  --secondary: #232323;
+  --background: #141414;
+  --light-text: #ffffff;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition-fast: 0.25s linear;
+  --transition-slow: all 0.75s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-
 html {
-	font-size: 62.5%;
-	height: 100%;
-	scroll-behavior: smooth;
-	color-scheme: dark;
-	scrollbar-width: thin;
-	scrollbar-color: var(--primary) var(--background);
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--background);
 }
-
 ::-webkit-scrollbar {
-	width: 11px;
+  width: 11px;
 }
 ::-webkit-scrollbar-track {
-	background: var(--background);
-	cursor: pointer;
+  background: var(--background);
+  cursor: pointer;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: var(--primary);
-	border-radius: 8px;
-	border: 3px solid var(--background);
+  background-color: var(--primary);
+  border-radius: 8px;
+  border: 3px solid var(--background);
 }
-
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	line-height: 1.5;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
 }
-
 body {
-	-webkit-font-smoothing: antialiased;
-	background-color: var(--background);
-	line-height: 1.5;
-	font-size: 1.6rem;
-	height: 100%;
-	position: relative;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background);
+  line-height: 1.5;
+  font-size: 1.6rem;
+  height: 100%;
+  position: relative;
 }
-
 p {
-	line-height: 1.6;
+  line-height: 1.6;
 }
 img,
 svg,
 picture,
 video,
 canvas {
-	max-width: 100%;
-	display: block;
+  max-width: 100%;
+  display: block;
 }
 a {
-	text-decoration: none;
-	color: var(--primary);
-	outline-color: transparent;
+  text-decoration: none;
+  color: var(--primary);
+  outline-color: transparent;
 }
 input,
 textarea,
 select,
 button {
-	font-family: inherit;
+  font-family: inherit;
 }
 button {
-	cursor: pointer;
-	border: none;
+  cursor: pointer;
+  border: none;
 }
 ul,
 ol {
-	list-style: none;
+  list-style: none;
 }
 p,
 li,
@@ -86,16 +81,14 @@ h3,
 h4,
 h5,
 h6 {
-	overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
-
 #root,
 #__next {
-	isolation: isolate;
+  isolation: isolate;
 }
-
 @media (prefers-reduced-motion) {
-	html {
-		scroll-behavior: auto;
-	}
+  html {
+    scroll-behavior: auto;
+  }
 }
