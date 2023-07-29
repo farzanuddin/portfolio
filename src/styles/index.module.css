@@ -1,0 +1,121 @@
+/* keyframes */
+@keyframes slideFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* utils */
+.container {
+  width: min(88%, 125rem);
+  margin: 0 auto;
+}
+
+/* styles */
+.homeHeader {
+  color: var(--light-text);
+  min-height: 92vh;
+  min-height: 92svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeHeader .sectionContainer {
+  width: min(88%, 95rem);
+}
+
+.sectionContainer {
+  margin-top: 5rem;
+  position: relative;
+  composes: container;
+}
+
+.headerTitle {
+  grid-area: 'title';
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: slideFadeUp 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+
+.headerIntro {
+  font-size: clamp(1.6rem, 2.5vw + 1rem, 2.4rem);
+  font-weight: 600;
+}
+
+.headerTitleText {
+  font-size: clamp(4rem, 7vw + 1rem, 6.4rem);
+  color: var(--primary);
+  line-height: clamp(4.5rem, 7vw, 7rem);
+}
+
+.headerSubtitle {
+  font-size: clamp(3.2rem, 5vw + 1rem, 4.8rem);
+  font-weight: 600;
+  display: block;
+  color: var(--light-text);
+}
+
+.headerInformation {
+  opacity: 0;
+  margin-top: 2.5rem;
+  animation: slideFadeUp 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.25s
+    forwards;
+}
+
+.headerInformation > *:not(:last-child) {
+  margin-block-end: 1.5rem;
+}
+
+.headerDescription {
+  font-size: clamp(1.6rem, 3.5vw, 1.8rem);
+  grid-area: text;
+}
+
+.info {
+  grid-area: icon;
+}
+
+.iconInfo {
+  display: flex;
+  gap: 1rem;
+  font-size: clamp(1.6rem, 3.5vw, 1.8rem);
+}
+
+.iconInfo:first-of-type {
+  margin-bottom: 0.7rem;
+}
+
+/* media 768 */
+@media screen and (min-width: 768px) {
+  .headerDescription {
+    width: 80%;
+  }
+}
+
+/* media 1024 */
+@media screen and (min-width: 1024px) {
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .headerInformation {
+    align-self: start;
+    justify-self: start;
+    margin: 0;
+  }
+
+  .headerInformation > *:not(:last-child) {
+    margin-block-end: 2rem;
+  }
+}
