@@ -1,21 +1,22 @@
 # Portfolio - Personal Website
 
-This is the first version of my professional career portfolio where I can showcase my projects as I
-make them, as well as provide access on ways to contact me.
+Welcome to the debut version of my professional portfolio, designed to showcase my evolving projects and provide accessible contact information.
 
-## Technologies Used
+## Technologies Utilized
 
-- `Next.js`: A powerful React framework for building server-rendered, statically generated, and
-  hybrid web applications.
-- `React`: A JavaScript library for building user interfaces.
-- `ESLint`: A pluggable and customizable linting utility for JavaScript and JSX code.
-- `Prettier`: An opinionated code formatter to maintain consistent code style.
+- **Next.js**: A robust React framework, facilitating the creation of server-rendered, statically generated, and hybrid web applications.
+- **React**: A versatile JavaScript library for crafting user interfaces.
+- **ESLint**: A pluggable and customizable linting utility, ensuring code quality for JavaScript and JSX.
+- **Prettier**: An opinionated code formatter, contributing to a uniform and consistent code style.
 
-This project was boostrapped using `Next.js` with the Javascript template. Initialized by using the
-`npx create-next-app@latest` command. The application is running on `Next.js` version 13.
+## Project Initialization
 
-The application is styled using `CSS Modules`, which allows the CSS to be scoped to the component it
-is used in and avoid CSS class name collisions.
+This project was kickstarted using the JavaScript template of `Next.js` through the `npx create-next-app@latest` command. The application, currently running on `Next.js` version 13, stands as a testament to the power and flexibility of the framework.
 
-The project is formatted using `prettier` and is linted with `ESLint` using `react` and `prettier`
-plugins.
+## Styling Approach
+
+The application's aesthetics are achieved through the use of `CSS Modules`, enabling scoped CSS for each component and mitigating the risk of CSS class name collisions.
+
+## Code Formatting and Linting
+
+To maintain a clean and standardized codebase, the project undergoes formatting with `prettier` and thorough linting with `ESLint`. The configuration includes the `react` and `prettier` plugins for comprehensive code analysis.
